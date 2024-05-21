@@ -6,6 +6,27 @@
 .header {
     text-align: center;
 }
-.rules {
-    text-align: center;
+.rules-container {
+    display: flex;
+    justify-content: space-around;
 }
+.poker-rules, .blackjack-rules {
+    flex: 0; 
+    /* placeholder */
+}
+.poker {
+    text-align: center;
+    padding: 50px;
+}
+.blackjack {
+    text-align: center;
+    padding: 50px;
+}
+.game-button {
+    background-color: rgb(53, 101, 77);
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
