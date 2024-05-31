@@ -9,18 +9,21 @@
 .rules-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 .poker-rules, .blackjack-rules {
-    flex: 0; 
+    flex: 1;
+    padding: 0 20px;
     /* placeholder */
 }
-.poker {
-    text-align: center;
-    padding: 50px;
+.poker, .blackjack {
+    width: 50%;
+    padding: 0px 20px;
 }
-.blackjack {
-    text-align: center;
-    padding: 50px;
+.games-container {
+    display: flex;
+    justify-content: space-between;
 }
 .game-button {
     background-color: rgb(53, 101, 77);
