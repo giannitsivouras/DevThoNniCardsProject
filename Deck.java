@@ -18,8 +18,8 @@ public class Deck {
         shuffle();
     }
 
-    public void shuffle() {
-        Collections.shuffle(cards);
+    public void shuffle() {  Collections.shuffle(cards);
+      
     }
 
     public Card dealCard() {
