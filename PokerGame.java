@@ -17,7 +17,7 @@ public class PokerGame {
     }
 
     public void dealCards() {
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < players.length; i++) {
             for (Player player : players) {
                 player.addCardToHand(deck.dealCard());
             }
@@ -29,7 +29,7 @@ public class PokerGame {
             player.showHand();
         }
     }
-
+    //Determine winner by high card
     public void determineWinner() {
         Player winner = players[0];
         for (Player player : players) {
